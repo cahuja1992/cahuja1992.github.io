@@ -4,5 +4,5 @@ title:      Apache Spark
 date:       2018-07-27 18:07:27
 summary:    Reference Guide to Spark
 categories: 
-cover-image: /images/spark/thumbnail.png
+cover-image: /images/post_4/thumbnail.png
 ---

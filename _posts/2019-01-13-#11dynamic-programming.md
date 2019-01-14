@@ -4,7 +4,7 @@
   date:       2019-01-13
   summary:    Dynamic way to solve some complex problems
   categories: 
-  cover-image: /images/dynamic-programming.png
+  cover-image: /images/post_11/thumbnail.png
   redirect_to: 
     - /dynamic-programming/
 ---
