@@ -1,0 +1,52 @@
+html {
+  font-size: $base-font-size;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font-family;
+}
+
+abbr {
+  border-bottom: $abbr-border-bottom;
+  cursor: help;
+}
+
+p, span {
+
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+small, .small {
+  font-size: 0.707rem;
+}
+
+sup {
+  position: relative;
+  vertical-align: middle;
+  top: -0.9ex;
+}
+
+a {
+  padding-bottom: 0.15em;
+}
+
+.post-title {
+  border-bottom: 0; 
+}
+
+.table-of-contents ul li a{
+  background-image:none;
+}
+
+.underline-this {
+  border-bottom: 1px solid;
+}
+
+.MathJax {
+  font-size: 1em;
+  }

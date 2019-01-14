@@ -1,0 +1,104 @@
+
+.posts {
+  margin: 0;
+}
+
+.posts .post {
+  margin-bottom: 0.75em;
+  border-bottom: thin solid #f3f3f3;
+}
+
+.post-block {
+clear: both;
+float: left;
+}
+
+.post-block .post-cover{
+  float: left;
+  width: 10rem;
+  height: 7.5rem;
+  margin-right: 1rem;
+  border: 1px solid #eee;
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center;
+}
+
+.post-cover {
+  margin-right: 0px !important;
+}
+
+.post-details {
+  float: left;
+  margin:10px;
+  width: 48rem;
+}
+
+.posts .post:last-child {
+  border-bottom: none;
+}
+
+.post-link .post-title {
+  margin-top: 0;
+  // font-weight: 600;
+  color: #333;
+}
+
+.post-summary {
+  color: #777;
+  font-weight: 200;
+}
+
+.post-footer {
+  @extend .italic;
+
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.post-footer .avatar {
+  margin: 2rem 0;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.meta,
+.post-meta {
+  width: auto;
+  font-weight: 300;
+  margin: 0;
+  padding: .25em 0;
+  color: #7a7a7a;
+  font-style: italic;
+}
+
+.related-post-title {
+  border-bottom: thin solid #f3f3f3;
+}
+
+figure {
+  margin: 0 auto;
+  display: table;
+  border: 1px solid #999;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+figcaption {
+  border-top: 1px solid #999;
+}
+
+figure > img {
+  margin: 0 auto;
+  display: block;
+}
+
+.hmm-noise { 
+  width: 25%;
+  float: left;
+}
+
+.hmm-noise:first-child {
+  clear: both;
+}

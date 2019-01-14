@@ -1,0 +1,142 @@
+# Site settings
+title: Chirag Ahuja
+email: cahuja1992@gmail.com
+author: Chirag Ahuja
+description: "Chirag Ahuja"
+baseurl: ""
+type: 
+  - project
+
+date_format: "%b %-d, %Y"
+header_pages:
+ - resume.md
+ - contact.html
+ 
+permalink: /:title
+
+# Google analytics
+google_analytics: #
+
+# Optional features
+
+# allow indexing, follow links, no archive
+meta_robots: index,follow
+
+animated:             true
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    false
+ajaxify_contact_form: false
+show_affiliations:    false
+show_highlighted_projects: true
+enable_mathjax: true
+extended_fonts: true
+enable_anchorjs: false
+
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: true
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: true
+
+# txtpen post comments
+# (leave blank to disable txtpen)
+txtpen_sitename:
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments: true
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username: cahuja1992
+reddit_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username: 
+skype_username: cahuja1992_1
+steam_nickname:
+google_plus_id: +ChiragAhuja1
+linkedin_username: ahujachirag
+angellist_username: chirag-ahuja
+medium_id: ahujachirag
+bitcoin_url:
+paypal_url:
+flattr_button:
+telegram_username:
+vk_id:
+
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: true
+share_googleplus: false
+share_linkedin: true
+share_digg: false
+share_tumblr: true
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+future: true
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Enter your email id here...'
+    content:  'Say Hi!'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+# permalink:    pretty
+paginate:     4
+paginate_path: "/projects/page:num/"
+sass:
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-redirect-from
+# https://github.com/jekyll/jekyll/issues/2938
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
