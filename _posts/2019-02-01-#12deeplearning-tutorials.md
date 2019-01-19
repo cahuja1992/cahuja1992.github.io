@@ -6,7 +6,6 @@
   categories: 
   cover-image: /images/post_12/thumbnail.png
 ---
-# Deep Learning Crash Course
 ![Deep Learning](images/../../images/post_12/dl_poster.jpg)
 ## Hardware and Software Requirements
 * A laptop running 64 bit OS (Linux/OSX/Windows)
