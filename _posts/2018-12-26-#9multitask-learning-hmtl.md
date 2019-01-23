@@ -4,10 +4,9 @@
   date:       2019-01-01 
   summary:    NLU for skill based smart voice agents 
   categories: 
-  cover-image: /images/post_14/thumbnail.png
+  cover-image: /images/post_9/thumbnail.png
   highlighted: true
 ---
-
 ## What is Multi Task Learning ?
 While doing Machine Learning (ML), we generally care about enhancing for a specific measurement, regardless of whether this is a score on a specific benchmark or a business KPI. So as to do this, we by and large train a solitary model or a gathering of models to play out our ideal assignment. We at that point calibrate and change these models until their execution never again increments. While we can by and large accomplish satisfactory execution along these lines, by being laser-centered around our single errand, we disregard data that may enable us to improve on the metric we care about. In particular, this data originates from the preparation signs of related undertakings. By sharing portrayals between related assignments, we can empower our model to sum up better on our unique undertaking. This methodology is called Multi-Task Learning (MTL) and will be the subject of this blog entry. As machine learning is not restrictive to any single domain, so does the MTL, it is applicable in computer vision, natural language processing, speech recognition.
 
