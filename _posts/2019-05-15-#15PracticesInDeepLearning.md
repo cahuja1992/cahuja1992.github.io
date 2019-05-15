@@ -29,6 +29,8 @@ So, after spending a lot of time and banging my head tuning the models, I discov
 [Cosine Annealing](https://www.tensorflow.org/api_docs/python/tf/train/cosine_decay)
 
 ## Activation functions:
+1. I found that sigmoid_cross_entropy_with_logits works better than softmax for classifcation.
+2. Log Softmax works better than Softmax, though it is a scaled version of softmax but practically I found it works better and converges faster.
 
 ## Training:
 
