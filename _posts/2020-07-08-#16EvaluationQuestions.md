@@ -6,8 +6,7 @@
   categories: Courses/Computer Science/Algorithms
   cover-image: /images/post_12/thumbnail.png
 ---
-
-# 
+![Deep Learning](images/../../images/post_12/dl_poster.jpg)
 
 Following are the question that helps me to understand where all of you stand in terms of your breadth and knowledge of Data Structure and Algorithms and thus, I can stress more on the areas where I feel you all need more guidance.
 
