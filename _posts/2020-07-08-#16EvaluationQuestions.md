@@ -1,4 +1,13 @@
-# Fundamentals to Data Crunching
+---
+  layout:     post
+  title:      Course: Fundamentals to Data Crunching (Student Evaluation)
+  date:       2020-07-08
+  summary:    Evaluation questions for participating students in the course (Fundamentals to Data Crunching)
+  categories: Courses/Computer Science/Algorithms
+  cover-image: /images/post_12/thumbnail.png
+---
+
+# 
 
 Following are the question that helps me to understand where all of you stand in terms of your breadth and knowledge of Data Structure and Algorithms and thus, I can stress more on the areas where I feel you all need more guidance.
 
