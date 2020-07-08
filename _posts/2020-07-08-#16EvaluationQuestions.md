@@ -7,7 +7,6 @@
   cover-image: /images/post_12/thumbnail.png
 ---
 ![Deep Learning](images/../../images/post_12/dl_poster.jpg)
-
 Following are the question that helps me to understand where all of you stand in terms of your breadth and knowledge of Data Structure and Algorithms and thus, I can stress more on the areas where I feel you all need more guidance.
 
 ## Q1: Swap Alternate (Evaluate)
@@ -245,7 +244,7 @@ Provided below is the Interface of the Skill and Robot class that serves as an i
 2. WhoCreatedYou
 3. WhatSkillsYouHave
 
-{{ "{% highlight python " }}%}  
+```
 from abc import abstractmethod
 
 class Robot:
@@ -269,6 +268,6 @@ class Skill:
     @abstractmethod
     def execute(self):
         pass
-{{ "{% endhighlight " }}%}  
+```
 
 
