@@ -245,7 +245,7 @@ Provided below is the Interface of the Skill and Robot class that serves as an i
 2. WhoCreatedYou
 3. WhatSkillsYouHave
 
-```python
+{{ "{% highlight python " }}%}  
 from abc import abstractmethod
 
 class Robot:
@@ -269,4 +269,6 @@ class Skill:
     @abstractmethod
     def execute(self):
         pass
-```
+{{ "{% endhighlight " }}%}  
+
+
