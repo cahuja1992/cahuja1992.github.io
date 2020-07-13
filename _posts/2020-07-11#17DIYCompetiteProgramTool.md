@@ -59,6 +59,8 @@ class Program:
             cmd = 'gcc -o {0} {1}'.format(self.name, self.fileName)
         elif self.language == 'cpp':
             cmd = 'g++ -o {0} {1}'.format(self.name, self.fileName)
+        elif self.language == 'python3':
+            cmd = 'python3 {}'.format(self.fileName)
 
         # Invalid files
         if cmd is None:
