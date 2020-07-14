@@ -272,7 +272,7 @@ class Skill:
 
 The Ideal Solution
 
-```
+```python
 from abc import abstractmethod
 from collections import defaultdict
 
