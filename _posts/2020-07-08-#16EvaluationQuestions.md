@@ -270,4 +270,90 @@ class Skill:
         pass
 ```
 
+The Ideal Solution
+
+```
+from abc import abstractmethod
+from collections import defaultdict
+
+
+class AlreadyRegisteredError(Exception):
+    """Raised when attempting to register a subclass which is already
+    registered"""
+
+    def __init__(self, name, new_class, existing_class):
+        msg = "Cannot register %s for %s as it has already been used to " \
+              "register %s" \
+              % (name, new_class.__name__, existing_class.__name__)
+        super(AlreadyRegisteredError, self).__init__(msg)
+
+
+class Robot:
+    """
+        Robot class 
+    """
+    _registry = dict()
+
+    @classmethod
+    def register_skill(cls, name):
+        def add_subclass_to_registry(subclass):
+            if name in Robot._registry:
+                raise AlreadyRegisteredError(name, cls, Robot._registry[name])
+            Robot._registry[name] = subclass
+        return add_subclass_to_registry
+
+    @classmethod
+    def list_available(cls):
+        return list(Robot._registry[cls].keys())
+
+
+    def __init__(self):
+        pass
+
+    def ask(self, query):
+        """
+            Ask any query related to the skill, I will execute and print the answer
+        """
+        skill = self._registry[query]()
+        skill.execute()
+
+
+class Skill: 
+    """
+        An interface Skill Class
+    """
+
+    @abstractmethod
+    def execute(self):
+        pass
+
+        
+@Robot.register_skill("WhatIsMyName")
+class WhatIsMyName(Skill):
+    def execute(self):
+        print('You better know your name !!!. I am called as Skynet.')
+
+@Robot.register_skill("WhoCreatedYou")
+class WhoCreatedYou(Skill):
+    def execute(self):
+        print('I am created by the team of engineers and scientists at Sabudh Foundation')
+
+@Robot.register_skill("WhatSkillsYouHave")
+class WhatSkillsYouHave(Skill):
+    def execute(self):
+        print('You can ask me about \n1. WhatIsMyName \n2. WhoCreatedYou \3. WhatSkillsYouHave')
+
+
+
+if __name__ == '__main__':
+    robot = Robot()
+    print("Question 1: WhatIsMyName")
+    robot.ask("WhatIsMyName")
+    print("Question 2: WhoCreatedYou")
+    robot.ask("WhoCreatedYou")
+    print("Question 3: WhatSkillsYouHave")
+    robot.ask("WhatSkillsYouHave")
+
+```
+
 
