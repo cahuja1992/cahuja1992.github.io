@@ -305,7 +305,7 @@ class Robot:
 
     @classmethod
     def list_available(cls):
-        return list(Robot._registry[cls].keys())
+        return list(Robot._registry.keys())
 
 
     def __init__(self):
