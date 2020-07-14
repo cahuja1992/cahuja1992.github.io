@@ -270,8 +270,9 @@ class Skill:
         pass
 ```
 
-The Ideal Solution
+## Solutions:
 
+### Question 6
 ```python
 from abc import abstractmethod
 from collections import defaultdict
