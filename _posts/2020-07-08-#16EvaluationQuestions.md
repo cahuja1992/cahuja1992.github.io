@@ -1,6 +1,6 @@
 ---
   layout:     post
-  title:      Course: Fundamentals to Data Crunching (Student Evaluation)
+  title:      Course - Fundamentals to Data Crunching (Student Evaluation)
   date:       2020-07-08
   summary:    Evaluation questions for participating students in the course (Fundamentals to Data Crunching)
   categories: Courses/Computer Science/Algorithms

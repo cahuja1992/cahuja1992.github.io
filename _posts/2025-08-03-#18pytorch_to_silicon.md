@@ -1,6 +1,6 @@
 ---
   layout:     post
-  title:      From PyTorch to Silicon: The Alchemist's Secret to Efficient AI
+  title:      From PyTorch to Silicon - The Alchemist's Secret to Efficient AI
   date:       2025-08-03
   summary:    
   categories: 
