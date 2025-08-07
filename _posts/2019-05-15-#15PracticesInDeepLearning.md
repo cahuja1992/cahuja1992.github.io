@@ -1,6 +1,6 @@
 ---
   layout:     post
-  title:      
+  title:      My Notes on Deep Learning
   date:       2019-05-15
   summary:    Practices in Deep Learning
   categories: 
