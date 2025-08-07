@@ -1,9 +1,9 @@
 ---
   layout:     post
-  title:      From PyTorch to Silicon - The Alchemist's Secret to Efficient AI
+  title:      "[EdgeAI - Part 1]: From PyTorch to Silicon - The Alchemist's Secret to Efficient AI"
   date:       2025-08-03
   summary:    
-  categories: 
+  categories: EdgeAI/Internals
   cover-image: /images/post_18/thumbnail.png
 ---
 
