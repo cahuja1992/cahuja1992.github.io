@@ -4,9 +4,8 @@
   date:       2025-08-03
   summary:    
   categories: 
-  cover-image: /images/post_12/thumbnail.png
+  cover-image: /images/post_18/thumbnail.png
 ---
-![Deep Learning](images/../../images/post_12/dl_poster.jpg)
 
 We live in an age of digital magic. We speak to our phones, generate stunning images from text, and get instant answers to complex questions. At the core of this magic are neural networks, often designed and trained in high-level frameworks like PyTorch or TensorFlow. These models are written in the language of floating-point mathematics—a world of decimal points and high precision.
 
